@@ -1,7 +1,11 @@
 # AzureHoneypot
 <b>We will be creating a virtual machine in Microsoft Azure with no protections so we can monitor attacks from Sentinel for live SIEM training.</b>
-
-1. We need to setup an account on Microsoft Azures portal. Microsoft gives you a free $200.00 credit, so this makes it easy to test and practice on the platform.
+<br>
+<br>
+<a href="https://imgur.com/7tDZdvO"><img src="https://i.imgur.com/7tDZdvO.jpg" title="source: imgur.com" /></a>
+<br>
+<br>
+1. First we need to setup an account on Microsoft Azures portal. Microsoft gives you a free $200.00 credit, so this makes it easy to test solutions and practice on the platform.
 <br>
 2. Now we will create our virtual machine and create a resource group for our lab. Under the networking tab, you want to go to NIC network security group and click advanced. Here we will delete the default firewall rule and add a custom one with open permissions. After that click "review and create".
 <br>
